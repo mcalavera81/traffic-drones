@@ -60,6 +60,8 @@ class Dispatcher extends Actor with ActorLogging {
 
     })
 
+
+
   }
 
   def receive = disabled
@@ -90,7 +92,8 @@ class Dispatcher extends Actor with ActorLogging {
     }
     case AckDroneDown(droneId:String) => {
       output(droneId).close
-      if(droneDataPoints.isEmpty) {
+      output -= droneId
+      if(output.isEmpty) {
         log.info("Not any more drones alive. Shutting down the whole system")
         context.become(disabled)
         context.system.terminate()

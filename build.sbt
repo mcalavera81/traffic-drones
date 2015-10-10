@@ -1,4 +1,4 @@
-name := """traffic-drones"""
+name := """traffic_drones"""
 
 version := "1.0"
 
