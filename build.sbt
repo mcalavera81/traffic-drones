@@ -1,4 +1,4 @@
-name := """hello-akka"""
+name := """traffic-drones"""
 
 version := "1.0"
 
@@ -22,5 +22,6 @@ ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }
 
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-v")
 
+mainClass in assembly := Some("driver.TrafficDrones")
 
 fork in run := true
