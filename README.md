@@ -12,6 +12,7 @@ The output is located in the same path specified as per the app.filesPath variab
 output file per drone.
 For instance. For a drone with id 6000 the output would be:
 
-DroneId  Tube Station         Time                    Speed(km/h)  Traffic Condition
-6000     Pimlico              2011-03-22 07:59:04     36           LIGHT
-6000     Westminster          2011-03-22 08:04:12     32           HEAVY
+|DroneIdTube Station       |  Time                    |Speed(km/h)  |Traffic Condition|
+|--------------------------|--------------------------|-------------|-----------------|
+|6000     Pimlico          |    2011-03-22 07:59:04   | 36          |LIGHT            |
+|6000     Westminster      |    2011-03-22 08:04:12   | 32          |HEAVY            |
