@@ -1,0 +1,4 @@
+DroneId  Tube Station         Time                    Speed(km/h)  Traffic Condition
+5937     Elephant & Castle    2011-03-22 08:03:46     26           MODERATE
+5937     Borough              2011-03-22 08:05:46     28           LIGHT   
+5937     Southwark            2011-03-22 08:08:37     115          HEAVY   

@@ -1,0 +1,6 @@
+DroneId  Tube Station         Time                    Speed(km/h)  Traffic Condition
+6000     Pimlico              2011-03-22 07:59:04     36           LIGHT   
+6000     Westminster          2011-03-22 08:04:12     32           HEAVY   
+6000     Embankment           2011-03-22 08:07:18     28           HEAVY   
+6000     Charing Cross        2011-03-22 08:08:02     35           MODERATE
+6000     Temple               2011-03-22 08:08:36     35           MODERATE
